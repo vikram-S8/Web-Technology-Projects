@@ -1,0 +1,1 @@
+const d=document.getElementById('display');function add(x){d.value+=x}function clearD(){d.value=''}function del(){d.value=d.value.slice(0,-1)}function calc(){try{if(!/^[0-9+\-*/%.() ]+$/.test(d.value))throw 0;d.value=Function('return '+d.value)()}catch{d.value='Error'}}

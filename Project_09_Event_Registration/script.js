@@ -1,0 +1,1 @@
+document.getElementById('event').onsubmit=e=>{e.preventDefault();document.getElementById('msg').className='message';document.getElementById('msg').textContent='Registration successful! See you at TechFest 2026.';e.target.reset()};

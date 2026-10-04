@@ -1,0 +1,1 @@
+document.getElementById('reg').addEventListener('submit',e=>{e.preventDefault();let n=document.getElementById('name').value;document.getElementById('result').className='message';document.getElementById('result').textContent=`Registration successful! Welcome, ${n}.`;e.target.reset()});

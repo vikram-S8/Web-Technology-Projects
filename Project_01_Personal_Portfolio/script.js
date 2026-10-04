@@ -1,0 +1,1 @@
+document.getElementById('contactForm').addEventListener('submit',e=>{e.preventDefault();document.getElementById('msg').textContent='Thank you! Your message has been recorded locally.';e.target.reset()});
